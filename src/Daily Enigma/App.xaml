@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Daily_Enigma.App">
     <Application.Resources>
-        <Color x:Key="Primary">DarkBlue</Color>
+        <Color x:Key="Primary">#2c3e50</Color>
         <Style TargetType="Button">
             <Setter Property="TextColor" Value="White"></Setter>
             <Setter Property="VisualStateManager.VisualStateGroups">

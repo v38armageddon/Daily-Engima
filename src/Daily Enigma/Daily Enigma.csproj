@@ -6,7 +6,13 @@
     <RootNamespace>$(MSBuildProjectName.Replace("_", " "))</RootNamespace>
     <Authors>v38armageddon</Authors>
     <Company>$(Authors) Software</Company>
+    <ApplicationIcon>Deico.ico</ApplicationIcon>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Deico.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="4.5.1" />

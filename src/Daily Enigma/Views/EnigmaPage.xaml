@@ -9,11 +9,11 @@
 
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Color x:Key="Accent">Blue</Color>
+            <Color x:Key="Accent">#34495e</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid BackgroundColor="#434343">
+    <Grid BackgroundColor="#16161D">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
@@ -21,16 +21,17 @@
         <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
                 <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
-                    <Label Text="random enigma" FontSize="Title"/>
+                    <Label x:Name="Label_Enigma" Text="random enigma" FontSize="Title"/>
                 </ContentView>
             </StackLayout>
         </StackLayout>
         <ScrollView Grid.Row="1">
             <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                <Label x:Name="Label_Time" Text="[TIME]" FontSize="Title" HorizontalOptions="Center"/>
                 <Label Text="before the new enigma" FontSize="Subtitle" HorizontalOptions="Center"/>
                 <Label Text="You can resolve now or waiting tomorrow for a new enigma." FontSize="20" Padding="0,0,0,0"/>
-                <Entry x:Name="Answer" Text="Enter the answer"/>
-                <Button Text="Answer"/>
+                <Entry x:Name="Label_Answer" Text="Enter the answer"/>
+                <Button Text="Answer" BackgroundColor="#487eb0"/>
             </StackLayout>
         </ScrollView>
     </Grid>

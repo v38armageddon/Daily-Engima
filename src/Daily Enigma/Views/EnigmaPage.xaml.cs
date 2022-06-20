@@ -23,14 +23,27 @@ namespace Daily_Enigma.Views
             BindingContext = _viewModel = new EnigmaViewModel();
         }
 
-        private void RandomEnigma()
+        public void RandomEnigma()
         {
             var enigmas = new List<string>()
             {
                 "My first is the main color of the earth, my second can be used to move, my third is for surviving. My everything is a liquid. What is that ?",
                 "Very childish, I can introduce children to programming. What is my name ?",
             };
+        }
 
+        public void Timer()
+        {
+            var timer = new Timer();
+            timer.Interval = 1000;
+            timer.Elapsed += (sender, e) =>
+            {
+                Device.BeginInvokeOnMainThread(() =>
+                {
+                    Label_Time.Text = DateTime.Now.ToString("HH:mm:ss");
+                });
+            };
+            timer.Start();
         }
     }
 }

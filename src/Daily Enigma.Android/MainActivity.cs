@@ -20,7 +20,7 @@ namespace Daily_Enigma.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
-
+            Window.SetStatusBarColor(Android.Graphics.Color.Argb(0, 44, 62, 80));
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
