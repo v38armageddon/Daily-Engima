@@ -1,5 +1,4 @@
 ﻿using Daily_Enigma.Models;
-using Daily_Enigma.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,8 +9,6 @@ namespace Daily_Enigma.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
-
         bool isBusy = false;
         public bool IsBusy
         {

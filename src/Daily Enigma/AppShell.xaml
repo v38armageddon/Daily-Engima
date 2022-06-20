@@ -2,7 +2,7 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:Daily_Enigma.Views"
-       Title="Daily_Enigma"
+       Title="Daily Enigma"
        x:Class="Daily_Enigma.AppShell">
 
     <Shell.Resources>
@@ -24,9 +24,8 @@
     </Shell.Resources>
 
     <TabBar>
+        <ShellContent Title="Today's Enigma" Icon="icon_feed.png" Route="EnigmaPage" ContentTemplate="{DataTemplate local:EnigmaPage}" />
         <ShellContent Title="About" Icon="icon_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
-        <ShellContent Title="Today's Enigma" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:EnigmaPage}" />
-        <ShellContent Title="Settings" Icon="icon_settings.png" ContentTemplate="{DataTemplate local:OptionsPage}" />
     </TabBar>
     
 </Shell>

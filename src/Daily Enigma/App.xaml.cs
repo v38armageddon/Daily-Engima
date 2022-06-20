@@ -1,5 +1,4 @@
-﻿using Daily_Enigma.Services;
-using Daily_Enigma.Views;
+﻿using Daily_Enigma.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,8 +11,6 @@ namespace Daily_Enigma
         public App()
         {
             InitializeComponent();
-
-            DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
 

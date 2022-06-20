@@ -27,9 +27,10 @@
         </StackLayout>
         <ScrollView Grid.Row="1">
             <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
-                <Label Text="[TIME] before the new enigma" FontSize="Subtitle" HorizontalOptions="Center"/>
+                <Label Text="before the new enigma" FontSize="Subtitle" HorizontalOptions="Center"/>
                 <Label Text="You can resolve now or waiting tomorrow for a new enigma." FontSize="20" Padding="0,0,0,0"/>
                 <Entry x:Name="Answer" Text="Enter the answer"/>
+                <Button Text="Answer"/>
             </StackLayout>
         </ScrollView>
     </Grid>
