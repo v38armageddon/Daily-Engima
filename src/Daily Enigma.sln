@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daily Enigma.Android", "Daily Enigma.Android\Daily Enigma.Android.csproj", "{88F086B0-4319-4C5B-BCF4-B60D5699C8B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daily Enigma", "Daily Enigma\Daily Enigma.csproj", "{5DD90AC0-AF83-435D-AEEE-EF1A4C239ACE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Daily Enigma", "Daily Enigma\Daily Enigma.csproj", "{5DD90AC0-AF83-435D-AEEE-EF1A4C239ACE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
