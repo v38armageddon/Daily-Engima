@@ -46,6 +46,10 @@ namespace Daily_Enigma.Views
             {
                 Label_Enigma.Text = "Bar";
             }
+            else
+            {
+                
+            }
         }
     }
 }
