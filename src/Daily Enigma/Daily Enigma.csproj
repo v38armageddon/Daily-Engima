@@ -8,6 +8,7 @@
     <Company>$(Authors) Software</Company>
     <ApplicationIcon>Deico.ico</ApplicationIcon>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NeutralLanguage>en-US</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
