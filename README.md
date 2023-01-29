@@ -1,7 +1,7 @@
 # ![Logo Daily Engima](Assets/DailyEnigma.png) Daily Engima
 Daily Enigma is a Android App who you try to resolve a enigma every day.
 
-# ⚠ **This project has been freezed!**
+# ⚠ **This project has been abandonned due to a lack of utility. If you wish to take the name and logo. Please contact at the following address: contact@v38armageddon.cf**
 
 ## How does it work?
 Every day, a enigma is selected by a list of enigmas.

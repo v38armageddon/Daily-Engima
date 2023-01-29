@@ -10,7 +10,7 @@ namespace Daily_Enigma.ViewModels
         public AboutViewModel()
         {
             Title = "About";
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://github.com/v38armageddon/Daily-Enigma"));
+            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://github.com/v38armageddon/Daily-Engima"));
         }
 
         public ICommand OpenWebCommand { get; }

@@ -1,5 +1,4 @@
-﻿using Daily_Enigma.Models;
-using Daily_Enigma.Views;
+﻿using Daily_Enigma.Views;
 using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;

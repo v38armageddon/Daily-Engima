@@ -1,7 +1,4 @@
 ﻿using System;
-using Microsoft.AppCenter;
-using Microsoft.AppCenter.Analytics;
-using Microsoft.AppCenter.Crashes;
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
@@ -14,7 +11,6 @@ namespace Daily_Enigma.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            AppCenter.Start("{95083169-8187-4587-b13f-9faddda2784f}", typeof(Analytics), typeof(Crashes));
             base.OnCreate(savedInstanceState);
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
